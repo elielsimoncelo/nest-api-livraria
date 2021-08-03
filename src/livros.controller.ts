@@ -9,9 +9,7 @@ import {
   Param,
   Post,
   Put,
-  Res,
 } from '@nestjs/common';
-import { ok } from 'assert';
 
 import { Livro } from './livro.model';
 import { LivrosService } from './livros.service';
